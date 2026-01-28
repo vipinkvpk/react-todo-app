@@ -12,7 +12,7 @@ export default function Todo(){
             <Form todos = {todos} setTodos = {setTodos}/>
             {/* {console.log(todos)} */}
             
-            <TodoList todos= {todos}/>
+            <TodoList todos= {todos} setTodos= {setTodos}/>
         </div>
         );
 }
